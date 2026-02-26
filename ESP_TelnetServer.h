@@ -9,6 +9,10 @@ public:
 	void begin();
 	void loop();
 
+	// Optional authentication: set a password to require clients to authenticate
+	void setPassword(const char *pw);
+	void clearPassword();
+
 	// Stream/Print overrides
 	int available() override;
 	int read() override;

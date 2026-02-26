@@ -1,0 +1,32 @@
+{
+    "name": "ESP_TelnetServer",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Muhammad Brilian Erranaomi",
+            "email": "brilianeranaomi@gmail.com"
+        }
+    ],
+    "maintainer": "Muhammad Brilian Erranaomi <brilianeranaomi@gmail.com>",
+    "sentence": "Telnet server with wifi and ethernet for ESP32",
+    "paragraph": "Telnet server with wifi and ethernet for ESP32",
+    "category": "Timing",
+    "url": "https://github.com/brili99/ESP_TelnetServer",
+    "architectures": [
+        "esp32"
+    ],
+    "dependencies": {
+        "Ethernet": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/brili99/ESP_TelnetServer.git"
+    },
+    "export": {
+        "exclude": [
+            "examples",
+            "tools",
+            "test"
+        ]
+    }
+}

@@ -33,7 +33,7 @@ void setup() {
 }
 
 void loop() {
-  telnetServer.handle();
+  telnetServer.loop();
   telnetServer.println("Hello from ESP32!");
   delay(1000);
 }
@@ -42,7 +42,7 @@ void loop() {
 ## API Reference
 
 - `begin()`: Starts the Telnet server.
-- `handle()`: Handles incoming client connections and data.
+- `loop()`: Handles incoming client connections and data.
 - `print()`, `println()`: Send data to all connected clients.
 
 ## License
